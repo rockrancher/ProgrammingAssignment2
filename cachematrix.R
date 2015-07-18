@@ -80,19 +80,3 @@ cacheSolve <- function(x, ...) {
     
 }
 
-
-neo <- c(2, 3, 2, 6, 8, 5, 1, 9, 1, 3, 6, 4, 7, 2, 4, 8)
-neo
-dim(neo) <- c(4, 4)
-morph <- solve(neo)
-morph
-foo <- rnorm(9)
-foo
-bar <- matrix(rnorm(25), 5, 5)
-bar
-foo <- makeCacheMatrix(bar)
-foo
-choo <- cacheSolve(foo)
-choo
-solve(bar)
-foo <- matrix(rnorm(25), 5, 5)
